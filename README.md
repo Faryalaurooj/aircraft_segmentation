@@ -25,7 +25,13 @@ yolo TASK MODE ARGS
 
 `
 yolo train data=coco8-seg.yaml model=yolov8l-seg.pt epochs=100 imgsz=640
+`
 
+
+To train for class = aircraft we will specify like this 
+`
+yolo train data=coco8-seg.yaml model=yolov8l-seg.pt epochs=100 imgsz=640 classes=4
+`
 
 # Predict
 
