@@ -1,5 +1,8 @@
-# aircraft_segmentation
+# Aircraft_Segmentation
 We will perfrom segmentation for aircraft detection by remote sensing on GoogleEarth images
+
+YOLOv8l-seg summary: 401 layers, 45997728 parameters, 45997712 gradients, 221.1 GFLOP
+
 
 # Quick Start
 ##Installations
