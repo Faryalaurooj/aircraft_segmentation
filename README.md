@@ -19,8 +19,8 @@ Install the ultralytics package from GitHub
 
 
 `
-pip install git+https://github.com/ultralytics/ultralytics.git@main
 
+git clone https://github.com/ultralytics/ultralytics
 `
 
 Ultralytics yolo commands use the following syntax:
