@@ -28,10 +28,22 @@ yolo train data=coco8-seg.yaml model=yolov8l-seg.pt epochs=100 imgsz=640
 `
 
 
-To train for class = aircraft we will specify like this 
+
+To train for class = aircraft we will specify like this :
+
+
 `
 yolo train data=coco8-seg.yaml model=yolov8l-seg.pt epochs=100 imgsz=640 classes=4
 `
+
+
+
+
+Ultralytics YOLOv8.2.16 🚀 Python-3.10.12 torch-2.2.1+cu121 CPU (Intel Xeon 2.20GHz)
+engine/trainer: task=segment, mode=train, model=yolov8l-seg.pt, data=coco8-seg.yaml, epochs=100, time=None, patience=100, batch=16, imgsz=640, save=True, save_period=-1
+
+
+
 
 # Predict
 
