@@ -25,4 +25,16 @@ yolo TASK MODE ARGS
 
 `
 yolo train data=coco8-seg.yaml model=yolov8l-seg.pt epochs=100 imgsz=640
+
+
+# Predict
+
+Using pre-trained weights
+`
+yolo predict model=yolov8n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+`
+Using your own trained weights
+
+`
+yolo predict model=./runs/segment/train2/weights/best.pt imgsz=640 conf=0.25
 `
