@@ -59,10 +59,10 @@ Ultralytics YOLO 🚀, AGPL-3.0 license
 COCO8-seg dataset (first 8 images from COCO train2017) by Ultralytics
 Documentation: https://docs.ultralytics.com/datasets/segment/coco8-seg/
 Example usage: yolo train data=coco8-seg.yaml
-# parent
-# ├── ultralytics
-# └── datasets
-#     └── coco8-seg  ← downloads here (1 MB)
+parent
+├── ultralytics
+    └── datasets
+        └── coco8-seg 
 
 Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 path: ../datasets/coco8-seg # dataset root dir
@@ -85,7 +85,7 @@ names:
 
 Using pre-trained weights
 `
-yolo predict model=yolov8n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+yolo predict model=yolov8n-seg.pt source='' imgsz=320
 `
 Using your own trained weights
 
