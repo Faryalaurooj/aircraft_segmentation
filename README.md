@@ -5,18 +5,26 @@ YOLOv8l-seg summary: 401 layers, 45997728 parameters, 45997712 gradients, 221.1 
 
 
 # Quick Start
+
 ##Installations
+
+
 Install the ultralytics package from PyPI
 
 `
 pip install ultralytics
 `
+
 Install the ultralytics package from GitHub
 
 
-`pip install git+https://github.com/ultralytics/ultralytics.git@main
 `
+pip install git+https://github.com/ultralytics/ultralytics.git@main
+
+`
+
 Ultralytics yolo commands use the following syntax:
+
 
 yolo TASK MODE ARGS
 
@@ -28,6 +36,7 @@ yolo TASK MODE ARGS
 
 `
 yolo train data=coco8-seg.yaml model=yolov8l-seg.pt epochs=100 imgsz=640
+
 `
 
 
